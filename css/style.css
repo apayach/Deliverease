@@ -1,0 +1,491 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding:0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	line-height: 1.5;
+	width: 100%;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+
+/*nav*/
+.navbar-default {
+    background-color: #e8b007 ;
+    border-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #dddddd;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #dddddd;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #dddddd;
+  background-color: #c39405;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #dddddd;
+  background-color: #c39405;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c39405;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c39405;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #dddddd;
+}
+/*nav*/
+
+.container {
+	width: 95%;
+	margin: 40px auto 20px;
+	max-width: 1080px;
+}
+
+h1, h2, h3 {
+	font-size: 1.5em;
+	color: #e8b007;
+}
+
+.aboutusdesc {
+	font-size: 1.25em;
+	line-height: 1.75em;
+	font-weight: lighter;
+}
+
+.submenulist {
+    list-style-type: none;
+}
+
+.submenulists {
+    display: block;
+	color: #27578C;
+	float: left;
+	padding: 1% 2% 0;
+	font-size: 1.1em;
+}
+
+.submenulists a {
+	text-decoration: none; 
+}
+
+.submenulists a:hover {
+	text-decoration: none;
+	border-bottom: 4px solid #27578C;
+}
+
+.underline {
+	width: 100%;
+	border-top: 2px solid #27578C;
+	margin: auto;
+}
+
+h5 {
+	color:#27578C;
+	font-size: 1.25em;
+	margin-top: 30px;
+}
+
+
+.itembuttontop {
+	width: 100%;
+	height: 2.5em;
+	border-radius: 0;
+	border-bottom: 1pt solid #D0D0D0;
+	background-color: white;
+}
+
+.itembutton {
+	width: 100%;
+	height: 2.5em;
+	border-radius: 0;
+}
+
+.btn-block:hover {
+	background-color: #F0F0F0;
+	text-decoration: none;
+}
+
+.item {
+	text-align: left;
+	float:left;
+}
+
+.price {
+	text-align: right;
+}
+
+h6 {
+	color: #27578C;
+	font-size: 1.25em;
+	margin: 0 auto 1em;
+}
+
+hr.solid {
+	border-top: 1px solid #D0D0D0;
+	opacity: 0.7;
+	margin: 1em auto 1em;
+}
+
+.additional {
+	margin: 0 auto;
+}
+
+.radio, .checkbox {
+	margin: 0 auto 0;
+	color: gray;
+	font-size: 0.95em;
+	line-height: 2em;
+}
+
+hr {
+	display: block;
+	border-top: 1px dashed #e8b007;
+	margin: 2em auto;
+	padding: 0;
+}
+
+#improving {
+	font-size: 2em;
+	font-weight: lighter;
+	color: #e8b007;
+}
+
+.carthead {
+	color:#27578C;
+	font-size: 0.925em;
+	font-weight: bold;
+}
+
+.emptycart {
+	font-size: 1.25em;
+	color: lightgray;
+	padding: 30px 0;
+}
+
+.continue1 {
+	width: 200px;
+	height: 45px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	background-color: #E8B007;
+}
+
+.continue1:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E8B007;
+}
+
+.deliveringdropdown {
+	margin: 15px 0;
+	position: relative;
+	display: inline-block;
+}
+
+.deliveringdropdown-content {
+	font-size: 1em;
+	display: inline-block;
+	font-weight: 300;
+}
+
+
+.food {
+	margin: 20px auto;
+}
+
+.transboxtext {
+	background-color: #27578C;
+	opacity: 0.7;
+	width: 240px;
+	display: block;
+	position: absolute;
+	bottom:0;
+}
+
+.transboxtext:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.textleft {
+	color: #FFFFFF;
+	float: left;
+	width: 50%;
+	font-size: 1em;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.textright {
+	font-size: 1em;
+	font-size: 11pt;
+	color: #FFFFFF;
+	float: right;
+	width: 30%;
+	margin-right: 10px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.textbelow {
+	font-weight: 100;
+	color: #FFFFFF;
+	float: left;
+	width: 50%;
+	font-style: italic;
+	height: 20px;
+	margin-left: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 250px auto 0;
+	width: 65%;
+	max-width: 600px;
+	min-width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #E8B007;
+}
+
+.popup .content {
+  max-height: 70%;
+  overflow-y: scroll;
+}
+
+.user {
+	width: 50%;
+	background-color: #cccccc;
+	margin: 10px auto;
+	height: 30px;
+	padding: 1em;
+	color: #000000;
+	font-size: 12pt;
+	border: none;
+}
+
+.password {
+	width: 50%;
+	background-color: #cccccc;
+	margin: 10px auto;
+	height: 30px;
+	padding: 1em;
+	color: #000000;
+	font-size: 12pt;
+	border: none;
+}
+
+.register {
+	width: 100px;
+	height: 40px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	background-color: #E8B007;
+}
+
+.register:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E8B007;
+}
+
+.login {
+	width: 100px;
+	height: 40px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	background-color: #E8B007;
+}
+
+.login:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #E8B007;
+}
+
+.schoolcontainer {
+	width: 100%;
+	background-image: url(../images/home_campusbuilding.jpg);
+}
+
+.schoolcontent {
+	width: 95%;
+	max-width: 1080px;
+	margin: auto;
+	color: #27578C;
+	font-size: 1em;
+}
+
+h2 {
+	color: #27578C;
+}
+
+.containerregister {
+	width: 95%;
+	max-width: 1080px;
+	margin: 50px auto;
+}
+
+.containerfooter {
+	width:100%;
+	background-color: #E8B007;
+	bottom: 0;
+}
+
+.footercontent {
+	width: 95%;
+	color: white;
+	margin: auto;
+	max-width: 1080px;
+}
+
+.footertext a:link {
+  text-decoration: none;
+	color: white;
+}
+
+.footertext:hover {
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.footerright {
+	max-width: 300px;
+}
+
+.app {
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+.apptext {
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+.app:hover {
+	border-radius: 10px;
+	border: 3px solid #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+h4 {
+	font-size: 0.75em;
+	font-weight: lighter;
+}
+
+
+@media (max-width: 550px) {
+	.img {
+		width: 180px;
+		height: 180px;
+	}
+	
+	.transboxtext {
+		width: 180px;
+	}
+	
+	.aboutimage {
+		width: 105px;
+		height: auto;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.img {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.transboxtext {
+		width: 150px;
+	}
+}

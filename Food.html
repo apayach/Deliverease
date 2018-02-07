@@ -1,0 +1,742 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DeliverEase</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="food.html">
+      	<img id="imglogo" src="images/logo-home.png" alt="logo">
+      	</a>
+	  </div>
+    
+   <form class="navbar-form navbar-right" role="search" id="navBarSearchForm">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+<ul class="nav navbar-nav navbar-right">
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Account<span class="caret"></span></a>
+        	<ul class="dropdown-menu">
+          	<li class="disabled"><a href="#">Profile</a></li>
+          	<li class="disabled"><a href="#">History</a></li>
+          	<li><a href="Index.html">Log Out</a></li>
+        	</ul>
+      	</li>
+        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+
+  </div>
+</nav>
+</header>
+
+<main>
+<div class="container">
+<div class="row">
+	<div class="col-xs-8">
+	<h1>DELIVERING</h1>
+	</div>
+	
+	<div class="col-xs-4" align="right">
+		 <div class="deliveringdropdown">
+		<select class="deliveringdropdown-content">
+			<option>NOW</option>
+			<option>SCHEDULED</option>
+		 </select> 	 
+	</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pokebowl.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Poke Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fusion
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_hawaiian.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				LL BBQ
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Hawaiian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_chipotle.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Chipotle
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mexican
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_acai.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Power Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Dessert
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pandaexpress.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Panda Express
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Asian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_ikes.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Ike's Sandwich
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Sandwiches
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_bagels.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				House of Bagel
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Breakfast
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_blazepizza.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Blaze Pizza
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Pizza
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_jambajuice.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Jamba Juice
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Juice/Smoothies
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_innout.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				In N Out
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fast Food
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_dimsum.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Koi's Palace
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Chinese
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_gyro.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Nick The Greek
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mediterranean
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pokebowl.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Poke Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fusion
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_hawaiian.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				LL BBQ
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Hawaiian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_chipotle.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Chipotle
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mexican
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_acai.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Power Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Dessert
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pandaexpress.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Panda Express
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Asian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_ikes.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Ike's Sandwich
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Sandwiches
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_bagels.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				House of Bagel
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Breakfast
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_blazepizza.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Blaze Pizza
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Pizza
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_jambajuice.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Jamba Juice
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Juice/Smoothies
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_innout.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				In N Out
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fast Food
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_dimsum.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Koi's Palace
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Chinese
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_gyro.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Nick The Greek
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mediterranean
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pokebowl.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Poke Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fusion
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_hawaiian.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				LL BBQ
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Hawaiian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_chipotle.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Chipotle
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mexican
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_acai.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Power Bowl
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Dessert
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_pandaexpress.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Panda Express
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Asian
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_ikes.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Ike's Sandwich
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Sandwiches
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_bagels.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				House of Bagel
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Breakfast
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_blazepizza.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Blaze Pizza
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Pizza
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_jambajuice.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Jamba Juice
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Juice/Smoothies
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_innout.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				In N Out
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Fast Food
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_dimsum.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Koi's Palace
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Chinese
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4 col-md-3 food">
+		<img class="img" src="images/food_gyro.jpg" alt="Poke" width="240px" height="240px">
+		<div class="transboxtext">
+			<a href= "FoodMenu.html">
+				<div class="textleft">
+				Nick The Greek
+				</div>
+				<div class="textright">
+				40 mins
+				</div>
+				<div class="textbelow">
+				Mediterranean
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="containerfooter">
+	<div class="footercontent">
+	<div class="row">
+	<div class="col-xs-6 col-sm-4" align="center">
+		<ul class= "footerleft">
+			<br><a href="about.html"> <div class="footertext">About Us</div></a>
+			<div class="footertext">Career</div>
+			<div class="footertext">Help</div>
+		</ul>
+	</div>
+	
+	<div class="col-xs-6 col-sm-4" align="center">
+		<ul class= "footermiddle">
+			<br><div class="footertext">Safety Policy</div>
+			<div class="footertext">Shipping Policy</div>
+			<div class="footertext">Affiliates</div>
+		</ul>
+	</div>
+	
+	<div class="col-xs-12 col-sm-4" align="center">
+	<div class="footerright">
+		<br>Download our app:
+		
+		<div class="appcontainer">
+			<div class="row">
+			<div class="col-xs-6">
+			<button class="app">
+				<img src= "images/apple_logo-01.png" class="imgapple" width="24px" height="30px"/>
+				<div class="apptext">
+				AppStore
+				</div>
+			</button>
+			</div>
+	
+			<div class="col-xs-6">
+			<button class="app">
+			<img src="images/googleplay_logo-01.png" class="imggoogle" width="24px" height="28px"/>
+				<div class="apptext">
+				Google Play
+				</div>
+			</button>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	</div>
+	<div class="col-xs-12" align="center">
+		<h4>
+		© 2017 DeliverEase. All Rigths Reserved.
+		</h4>
+	</div>
+	
+</div>
+</div>
+</div>
+	</footer>
+
+</body>
+</html>
